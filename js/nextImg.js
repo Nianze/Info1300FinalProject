@@ -1,6 +1,7 @@
 // Global variables
 var festival_images = ["images-1.jpg", "images-2.jpg", "images-3.jpg", "images-4.jpg"];
 var index = 0;
+var festivalPic = document.getElementById('festivalImage');
 
 function image_loader(next_pic) {
     "use strict";
