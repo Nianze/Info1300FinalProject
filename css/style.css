@@ -55,6 +55,10 @@ caption {
     margin-top: 1em;
 }
 
+span {
+  font-size: 120%;
+  font-family: "Dancing Script", cursive;
+}
 /****************************/
 /* styling by section       */
 /****************************/
@@ -126,6 +130,13 @@ caption {
     padding: 0.5em;
 }
 
+.people {
+      max-width: 230px;
+      float: left;
+      margin-left: 6em;
+      margin-top: 2em
+    }
+    
 #left_basic {
   display: inline;
   float: left;
@@ -240,7 +251,3 @@ footer {
         margin-left: 1.5em;
     }
 }
-
-
-
-
