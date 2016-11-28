@@ -1,5 +1,5 @@
 // Global variable for function image_loader
-var festivalPic = document.getElementById('festivalImage');
+
 
 window.onload = function date() {
     "use strict";
