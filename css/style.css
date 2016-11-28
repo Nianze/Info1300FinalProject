@@ -207,6 +207,7 @@ footer {
   padding-left: 1em;
   width: 100%;
   text-align: center;
+  display: flex;
 }
 
 /****************************/
