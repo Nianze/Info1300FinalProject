@@ -9,15 +9,7 @@ html, body {
 }
 
 body {
-<<<<<<< Updated upstream
     background-color: #ffffff; /*#efefef; */
-=======
-<<<<<<< HEAD
-    background-color: #efefef;
-=======
-    background-color: #ffffff; /*#efefef; */
->>>>>>> origin/master
->>>>>>> Stashed changes
     font-family: 'David Libre', serif;
     font-size: 0.9em;
 }
