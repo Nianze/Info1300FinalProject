@@ -79,7 +79,6 @@ hr {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 1em;
     position: fixed;
@@ -105,7 +104,6 @@ hr {
 
 #top > img {
     width: 100%;
-    margin-top: 3em;
 }
 
 #top2 {
