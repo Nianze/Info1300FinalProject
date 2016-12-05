@@ -22,7 +22,7 @@ h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
 }
-}
+
 
 p {
     font-size: 110%;
@@ -269,15 +269,13 @@ footer {
     text-align: center;
 }
 
-<<<<<<< HEAD
+
 #map {
     width: 400px;
     height: 400px;
     background: grey;
 }
-=======
 
->>>>>>> origin/master
 /****************************/
 /* media queries            */
 /****************************/
@@ -333,13 +331,13 @@ footer {
     #content {
         margin-left: 1.5em;
     }
-<<<<<<< HEAD
+
     #map {
         width: 250px;
         height: 250px;
     }
 
-=======
+
     /*main page*/
     #QuotePic {
         display: none;
@@ -357,6 +355,4 @@ footer {
 .box {
    width: 100%;
    padding-bottom: 100%;
-}
->>>>>>> origin/master
 }
