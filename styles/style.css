@@ -225,6 +225,7 @@ footer {
 /* media queries            */
 /****************************/
 
+/*desktop*/
 @media screen and (max-width: 1200px) {
     #content {
         width: 85%;
@@ -238,13 +239,13 @@ footer {
         display: none;
     }
 }
-
+/*tablet*/
 @media screen and (max-width: 768px) {
     #content > table {
         display: none;
     }
 }
-
+/*phone*/
 @media screen and (max-width: 480px) {
     #top_nav > span:first-child {
         margin-left: 0em;
@@ -261,5 +262,18 @@ footer {
 
     #content {
         margin-left: 1.5em;
+    }
+    /*main page*/
+    #QuotePic {
+        display: none;
+    }
+    #festivalImage {
+        display: none;
+    }
+    #button_container {
+        display: none;
+    }
+    #sidePic {
+        display: none;
     }
 }
