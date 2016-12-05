@@ -289,9 +289,7 @@ footer {
 }
 }
 
-
-
->>>>>>> Stashed changes
+/*ipad*/
 @media screen and (max-width: 768px) {
     #content > table {
         display: none;
