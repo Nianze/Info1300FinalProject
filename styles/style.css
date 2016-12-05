@@ -291,7 +291,11 @@ footer {
     #ad_column {
         display: none;
     }
-
+    #right_basic {
+        display: inline;
+        float:left;
+        width: 50%;
+    }
    .box {
    width: 25%;
    padding-bottom: 25%;
@@ -308,6 +312,11 @@ footer {
        width: 50%;
        padding-bottom: 50%;
     }
+    #right_basic {
+          display: inline;
+          float:left;
+          width: 50%;
+        }
 
 }
 /*phone*/
@@ -345,7 +354,10 @@ footer {
     #button_container {
         display: none;
     }
-    #sidePic {
+    #right_basic {
+        display: none;
+    }
+    .caption {
         display: none;
     }
 
