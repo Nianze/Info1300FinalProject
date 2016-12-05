@@ -131,6 +131,48 @@ hr {
     max-width: 1300px;
 }
 
+.wrap {
+   overflow: hidden;
+   margin: 10px;
+}
+.box {
+   float: left;
+   position: relative;
+   width: 20%;
+   padding-bottom: 20%;
+}
+.boxInner {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+.boxInner .titleBox {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: -50px;
+   background: #000;
+   background: rgba(0, 0, 0, 0.5);
+   color: #FFF;
+   padding: 10px;
+   text-align: center;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 0;
+}
+
 #content {
     /* border: solid 1px #dedede; */
     background-color: #ffffff;
@@ -227,15 +269,20 @@ footer {
     text-align: center;
 }
 
+<<<<<<< HEAD
 #map {
     width: 400px;
     height: 400px;
     background: grey;
 }
+=======
+
+>>>>>>> origin/master
 /****************************/
 /* media queries            */
 /****************************/
 
+/*desktop*/
 @media screen and (max-width: 1200px) {
     #content {
         width: 85%;
@@ -245,17 +292,30 @@ footer {
         max-width: 85%;
     }
 
+
     #ad_column {
         display: none;
     }
+
+   .box {
+   width: 25%;
+   padding-bottom: 25%;
+}
 }
 
+/*ipad*/
 @media screen and (max-width: 768px) {
     #content > table {
         display: none;
     }
-}
 
+    .box {
+       width: 50%;
+       padding-bottom: 50%;
+    }
+
+}
+/*phone*/
 @media screen and (max-width: 480px) {
     #top_nav > span:first-child {
         margin-left: 0em;
@@ -273,9 +333,30 @@ footer {
     #content {
         margin-left: 1.5em;
     }
+<<<<<<< HEAD
     #map {
         width: 250px;
         height: 250px;
     }
 
+=======
+    /*main page*/
+    #QuotePic {
+        display: none;
+    }
+    #festivalImage {
+        display: none;
+    }
+    #button_container {
+        display: none;
+    }
+    #sidePic {
+        display: none;
+    }
+
+.box {
+   width: 100%;
+   padding-bottom: 100%;
+}
+>>>>>>> origin/master
 }
