@@ -291,10 +291,13 @@ footer {
     #ad_column {
         display: none;
     }
-    #right_basic {
+     #right_basic {
         display: inline;
         float:left;
         width: 50%;
+    }
+    #sidePic {
+        width: 75%;
     }
    .box {
    width: 25%;
@@ -313,11 +316,13 @@ footer {
        padding-bottom: 50%;
     }
     #right_basic {
-          display: inline;
-          float:left;
-          width: 50%;
-        }
-
+        display: inline;
+        float:left;
+        width: 50%;
+    }
+    #sidePic {
+        width: 75%;
+    }
 }
 /*phone*/
 @media screen and (max-width: 480px) {
