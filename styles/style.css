@@ -18,6 +18,12 @@ h1, h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+}
+
 p {
     font-size: 110%;
 }
@@ -221,6 +227,11 @@ footer {
     text-align: center;
 }
 
+#map {
+    width: 400px;
+    height: 400px;
+    background: grey;
+}
 /****************************/
 /* media queries            */
 /****************************/
@@ -262,4 +273,9 @@ footer {
     #content {
         margin-left: 1.5em;
     }
+    #map {
+        width: 250px;
+        height: 250px;
+    }
+
 }
