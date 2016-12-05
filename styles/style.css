@@ -282,14 +282,13 @@ footer {
     #ad_column {
         display: none;
     }
-    .box {
+
+   .box {
    width: 25%;
    padding-bottom: 25%;
 }
 }
-<<<<<<< Updated upstream
-/*tablet*/
-=======
+
 
 
 >>>>>>> Stashed changes
@@ -297,6 +296,7 @@ footer {
     #content > table {
         display: none;
     }
+
     .box {
        width: 50%;
        padding-bottom: 50%;
@@ -321,7 +321,6 @@ footer {
     #content {
         margin-left: 1.5em;
     }
-<<<<<<< Updated upstream
     /*main page*/
     #QuotePic {
         display: none;
@@ -335,11 +334,9 @@ footer {
     #sidePic {
         display: none;
     }
-=======
 
 .box {
    width: 100%;
    padding-bottom: 100%;
 }
->>>>>>> Stashed changes
 }
