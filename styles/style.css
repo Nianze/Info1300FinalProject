@@ -310,6 +310,7 @@ footer {
     #content > table {
         /*display: none;*/
         width: 75%;
+        font-size: 0.5em
     }
 
     .box {
