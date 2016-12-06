@@ -355,6 +355,9 @@ footer {
         height: 250px;
     }
 
+    h2 {
+      margin-top: 1em;
+    }
 
     /*main page*/
     #QuotePic {
