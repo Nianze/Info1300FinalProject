@@ -312,6 +312,9 @@ footer {
         width: 75%;
         font-size: 0.5em
     }
+    #schedule {
+        width: 75%;
+    }
 
     .box {
        width: 50%;
@@ -331,7 +334,9 @@ footer {
     #top_nav > span:first-child {
         margin-left: 0em;
     }
-
+    #schedule {
+        width: 75%;
+    }
     #top > img {
         display: none;
     }
