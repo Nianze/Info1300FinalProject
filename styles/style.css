@@ -367,10 +367,15 @@ footer {
     .caption {
         display: none;
     }
-
-.box {
-   width: 100%;
-   padding-bottom: 100%;
-}
+    /*map page*/
+    .box {
+       width: 100%;
+       padding-bottom: 100%;
+    }
+    /*event page*/
+    #events > img{
+        width: 250px;
+        height: 250px;
+    }
 
 }
