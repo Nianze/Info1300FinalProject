@@ -299,6 +299,9 @@ footer {
     #sidePic {
         width: 75%;
     }
+    #event_map {
+        width: 85%;
+    }
    .box {
    width: 25%;
    padding-bottom: 25%;
@@ -327,6 +330,9 @@ footer {
     }
     #sidePic {
         width: 75%;
+    }
+    #event_map {
+        width: 85%;
     }
 }
 /*phone*/
