@@ -16,4 +16,4 @@ function show_map() {
 
 }
 
-//https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+//Learned from https://developers.google.com/maps/documentation/javascript/adding-a-google-map
