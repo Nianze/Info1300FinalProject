@@ -42,8 +42,6 @@ a:hover{
     text-decoration: underline;
 }
 
-a:
-
 table {
     border-collapse:collapse;
     border-spacing: 0;
@@ -362,6 +360,13 @@ footer {
     #event_map {
         width: 85%;
     }
+    .people {
+        width:55%;
+        margin-right: 2em;
+    }
+    #festival {
+      margin-top: 20em;
+    }
 }
 /*phone*/
 @media screen and (max-width: 480px) {
@@ -419,6 +424,9 @@ footer {
     }
     .people {
         margin-left: 1em;
+    }
+    .people >img{
+      display: none;
     }
     /*map page*/
     .box {
