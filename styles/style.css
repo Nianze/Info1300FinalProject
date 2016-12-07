@@ -312,7 +312,9 @@ footer {
     .image > img {
         max-width: 85%;
     }
-
+    #festival {
+      margin-top: 20em;
+    }
 
     #ad_column {
         display: none;
@@ -441,5 +443,8 @@ footer {
     /*food page*/
     .space {
       height: 2em;
+    }
+    #festival {
+      margin-top: 20em;
     }
 }
