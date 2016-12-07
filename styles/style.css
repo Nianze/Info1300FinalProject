@@ -296,6 +296,11 @@ footer {
     text-align: center;
 }
 
+#tcat > a {
+    color: blue;
+    font-size: 1.1em;
+}
+
 /****************************/
 /* media queries            */
 /****************************/
